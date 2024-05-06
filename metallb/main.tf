@@ -1,6 +1,6 @@
 locals {
     metallb_version      = "0.14.4"
-    metallb_ip_addr_pool = "192.168.50.230-192.168.50.235"
+    metallb_ip_addr_pool = "192.168.10.20-192.168.10.25"
 }
 
 data "http" "metallb_ingress_manifests" {

@@ -11,6 +11,6 @@ resource "helm_release" "pi_hole" {
   namespace  = kubernetes_namespace.pi_hole.id
 
   values = [templatefile("values.yaml", {
-    service_loadbalancer_ip = "192.168.50.231"
+    service_loadbalancer_ip = "192.168.10.20"
   })]
 }
