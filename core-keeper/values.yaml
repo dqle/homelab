@@ -1,0 +1,6 @@
+env:
+  WORLD_NAME: "Treeo Core Keeper Server"
+  WORLD_MODE: "1"
+  GAME_ID: ""
+  DISCORD: "1"
+  DISCORD_HOOK: ""
