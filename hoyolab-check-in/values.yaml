@@ -1,0 +1,11 @@
+fullnameOverride: "hoyolab-check-in"
+
+config:
+  check_in:
+    zenless_zone_zero: true
+  hoyolab_credential:
+    ltoken_v2: ""
+    ltuid_v2: ""
+  discord_webhook:
+    enabled: true 
+    webhook: ""
